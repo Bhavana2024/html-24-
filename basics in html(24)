@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhavana's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- style tag -->
+    <!-- <style>
+        /*select html element ::selection*/
+        /*id,class:selector*/
+        .header{
+            background-color: lightgray;
+            border:1px solid black;
+        }
+        #internship{
+            background-color: lightblue;
+            border:1px solid blue;
+        }
+    </style> -->
+ 
+    <div class="myPortfolio">My portfolio<div>
+        <div class="myPortfolio">
+        <h3>education</h3>
+        <ul>
+            <li>schooling:JBEM</li>
+            <li>inter:ALC</li>
+            <li>college:RGM</li>
+        </ul>
+     </div>
+     <div id="Internship">
+        <h4>Internship</h4>
+        <ul>
+            <li>Done in PHN</li>
+                <li>
+                    Done internship in PHN
+                </li>
+        </ul>
+     </div>
+        
+   
+    <div class="myPortfoli">
+    <H3>
+        Accomplishments:
+    </H3>
+    <ol>
+        <li>nptl(soft skills)</li>
+        <li>aicte(data analitics)</li>
+    </ol>
+    </div>
+    <div id="phonenum"> 
+<h4>phone no:</h4>
+    <input type="number" placeholder="write your contact number ">
+    </div>
+    <br>
+    <div class="email">
+    <h3>email:</h3>
+<input typre="email" placeholder=" write email here">
+</div>
+<label for=""><h3>choose your quary below:</h3></label>
+
+<label for="name">
+    <input type="radio" name="subject" id="name">
+    subject
+</label>
+<br>
+ <label>
+    <label for="name2">
+        <input type="radio" name="subject" id="name2">
+    Education
+ </label>
+ <br>
+ <label for="name3">
+    <input type="radio" name="subject" id="name3">
+    Internship
+</label>
+<br>
+
+</label>
+<br>
+
+<label> <h3> Select your gender</h3> </label>
+ <select name="gender">
+   
+    <option value="Male">Male</option>
+    <!-- division tags for structing the wedpage -->
+ <!--inline styles by using style attribute -->
+
+ <!-- <div style="background-colour: lightblue;border:ipx solid black;">
+  inline styles by using atributes-->
+    <!--<h3 style="colour:red">index3</h3>
+    <h4> all the information is true about me</h4></div>
+    <div style="background-color: lightgray; border: 1px solid red;">
+    <h4>education details</h4></div>
+    <option value="Female">Female</option> -->
+     
+ </select>
+
+ <!-- <div class="my Portfolio">
+    <h3>education</h3>
+
+ </div>
+ <div id="Internship"> -->
+ 
+    <!-- <ul> -->
+        <!-- <li>Done in PHN</li> -->
+    <!-- </ul> -->
+ <!--</div>-->
+    
+</body>
+</html>
